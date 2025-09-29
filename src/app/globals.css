@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-signature: "Bilbo Swash Caps", cursive;
+  --font-space: 'Space Mono', monospace;
+}
+
+.font-signature {
+  font-family: var(--font-signature), cursive;
+}
+
+.font-space {
+  font-family: var(--font-space), monospace;
 }
 
 @theme inline {
